@@ -11,33 +11,61 @@ This project performs customer segmentation using the Recency, Frequency, Moneta
 
 ## Project Structure
 ├── data/
+
 │   ├── raw/
+
 │   │   └── data.csv
+
 │   └── processed/
+
 │       ├── cleaned_data.csv
+
 │       ├── rfm_segments.csv
+
 │       └── kmeans_segments.csv
+
 │
+
 ├── outputs/
+
 │   ├── plots/
+
 │   │   ├── recency_distribution.png
+
 │   │   ├── frequency_distribution.png
+
 │   │   ├── monetary_distribution.png
+
 │   │   ├── segment_count.png
+
 │   │   ├── frequency_vs_monetary_scatter.png
+
 │   │   ├── kmeans_recency_monetary.png
+
 │   │   ├── kmeans_frequency_monetary.png
+
 │   │   └── kmeans_elbow.png
+
 │   └── rfm_summary.md
+
 │
+
 ├── src/
+
 │   ├── prep_data.py
+
 │   ├── rfm_segment.py
+
 │   ├── generate_insights.py
+
 │   ├── visualize_rfm.py
+
 │   └── kmeans_segmentation.py
+
 │
+
 ├── requirements.txt
+
 └── README.md
 
 ## Getting Started
